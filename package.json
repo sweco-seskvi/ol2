@@ -1,0 +1,23 @@
+{
+  "name": "ol2",
+  "version": "2.13.1",
+  "description": "OpenLayers 2: Free maps for the web",
+  "keywords": [
+    "openlayers",
+    "gis",
+    "map",
+    "mapping"
+  ],
+  "homepage": "https://openlayers.org/two/",
+  "main": "build/OpenLayers.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openlayers/openlayers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openlayers/openlayers/issues"
+  },
+  "scripts": {
+    "postinstall" : "cd build && python ./build.py full"
+  }
+}
